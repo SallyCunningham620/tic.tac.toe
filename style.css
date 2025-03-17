@@ -1,0 +1,10 @@
+/*STYLES*/
+
+
+.board {
+    border: solid black 1px;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+}
