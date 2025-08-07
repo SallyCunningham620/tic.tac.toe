@@ -6,7 +6,8 @@ const gameBoard = ['', '', '', '', '', '', '', '', ''];
 let currentPlayer;
 let gameBoardElem;
 
-// Element creation
+// Element creation for whole board
+//Add title
 const createTitle = title => {
   const titleElem = document.createElement('h1');
 
@@ -15,6 +16,7 @@ const createTitle = title => {
   document.body.appendChild(titleElem);
 };
 
+//Create Game Board
 const makeGameBoardElem = () => {
   const gameBoardElem = document.createElement('div');
 
@@ -23,6 +25,7 @@ const makeGameBoardElem = () => {
   return gameBoardElem;
 };
 
+//Add squares to game board
 const makeSquareElem = squareNumber => {
   const squareElement = document.createElement('div');
   squareElement.classList.add('game-square');
@@ -84,6 +87,7 @@ const checkBoard = () => {
   }
 };
 
+//Game complete create a message with winner
 const completeGame = message => {
   const overlayElem = document.createElement('div');
   overlayElem.style.position = 'fixed';
@@ -122,10 +126,10 @@ const completeGame = message => {
   document.body.appendChild(overlayElem);
 };
 
-// Initalisation
+// Reset Game
 const resetGame = () => {
   if (gameBoardElem) {
-    // Old game board exists
+    // Remove old game board
     document.body.removeChild(gameBoardElem);
   }
 

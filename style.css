@@ -17,6 +17,7 @@ h1 {
     font-size: 50px;
 }
 
+/*Game-board*/
 .game-board {
     height: 300px;
     width: 300px;
@@ -27,6 +28,7 @@ h1 {
     align-items: center;
 }
 
+/*Each square*/
 .game-square {
     display: flex;
     justify-content: center;
@@ -52,6 +54,7 @@ h1 {
     border-bottom: none;
 }
 
+/*Git link*/
 .git-nav a {
     text-decoration: none;
     color: white;
