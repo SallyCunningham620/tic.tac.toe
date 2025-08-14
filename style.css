@@ -8,6 +8,7 @@ body {
     font-family: monospace;
     padding: 20px;
     height: 700px;
+    min-width: 359px;
     background-color: rgb(131, 88, 88);
     display: flex;
     flex-direction: column;
