@@ -1,1 +1,1 @@
-# tic.tac.toe
+Create Tic-Tac-Toe game using mainly JS. JS is used to create the game board and all of the squares, it switches players, can tell a win or draw state, states a winner, and resets the game. CSS styles are used for the classes created in JS.

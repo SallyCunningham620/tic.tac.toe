@@ -54,9 +54,13 @@ h1 {
     border-bottom: none;
 }
 
-/*Git link*/
-.git-nav a {
+/*Portfolio Nav*/
+.port-nav a {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 1px blue;
+}
+
+.port-nav a:hover {
+    color: rgb(110, 110, 248);
 }
